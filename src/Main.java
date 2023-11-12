@@ -25,9 +25,9 @@ public class Main {
         System.out.print("Muzik Ders Notu : ");
         muzik = input.nextInt();
 
-        Integer toplam = (mat + fizik + kimya + turkce + tarih + muzik);
+       int toplam = (mat + fizik + kimya + turkce + tarih + muzik);
 
-        double sonuc = toplam / 6;
+        double sonuc = (double) toplam /6;
 
         System.out.println(sonuc >= 60 ? "Geçtiniz." : "Kaldınız!");
         System.out.println("Not Ortalamanız : " + sonuc);
