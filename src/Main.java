@@ -18,5 +18,6 @@ public class Main {
         System.out.println(toplam);
         System.out.println("Genel Toplam : " + sonuc);
 
+
     }
 }
